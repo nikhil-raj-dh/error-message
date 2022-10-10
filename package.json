@@ -40,7 +40,7 @@
     "lint:types": "tsc --noEmit",
     "test": "jest --runInBand",
     "test:watch": "npm run test -- --watchAll --coverage",
-    "prepare": "husky install"
+    "prepack": "husky install"
   },
   "keywords": [
     "react",
